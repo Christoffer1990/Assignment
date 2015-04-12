@@ -56,7 +56,8 @@ h2{
 }
 .section{
     float: left;
-    width: 100%;
+    width: calc(100% - 40px);
+    margin: 0 20px;
 }
 #wrapper{
     margin: 0 auto;
@@ -67,13 +68,14 @@ h2{
     float: left;
     margin: 170px 0;
     background-color: #fff;
-    padding: 38px 20px 33px 20px;
+    padding: 38px 0 33px 0;
     box-sizing: border-box;
     box-shadow: 0 1px 15px rgba(44,50,84,0.15);
 }
 #user-section{
     border-bottom: 1px solid #e8e8e8;
-    padding-bottom: 25px;
+    margin: 0;
+    padding: 0 20px 25px 20px;
 }
 #user-section img{
     float: left;
